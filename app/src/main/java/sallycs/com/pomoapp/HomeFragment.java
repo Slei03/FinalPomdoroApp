@@ -307,6 +307,7 @@ public class HomeFragment extends Fragment {
        for(int i = 0; i<input.size(); i++){
            input.get(i).setTime(taskMin);
            taskList.add(input.get(i));
+           //following if statement adds break in between each taskg
            if(input.size() > i+1) {
                Task breakTask = new Task("Break", breakMin);
                taskList.add(breakTask);
