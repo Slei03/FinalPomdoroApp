@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">PomodoroTime</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_data">Data</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--For home fragment-->
+    <string name="home_default">Add some tasks</string>
+    <string name="ask_task">Task Name:</string>
+    <string name="ask_description">Description:</string>
+    <string name="nameHint">\u0020 \u0020\u0020Name of Task</string>
+    <string name="descriptionHint">\u0020\u0020Describe Task</string>
+    <string name="button_create">Create</string>
+    <string name="start">Start</string>
+    <string name="apply">Apply Changes</string>
+
+    <!--For Settings Fragment-->
+    <string name="taskMinutes">Length of Task:</string>
+    <string name="breakMinutes">Length of Break:</string>
+    <string name="setMinutes">Set</string>
+
+
+    <!-- For Timer Activity-->
+    <string name = "placeHolder">holder</string>
+    <string name="complete">Task Completed</string>
+    <string name="endAll">Skip</string>
+    <string name="pause">Pause</string>
+</resources>

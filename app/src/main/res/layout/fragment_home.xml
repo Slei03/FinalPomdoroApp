@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="26dp"
+        android:clickable="true"
+        android:src="@drawable/ic_add_white"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabSize="normal" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="@string/home_default" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="81dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <Button
+        android:id="@+id/start_btn"
+        android:layout_width="110dp"
+        android:layout_height="61dp"
+        android:layout_alignBottom="@+id/floatingActionButton"
+        android:layout_centerHorizontal="true"
+        android:radius="50dp"
+        android:layout_marginBottom="-3dp"
+        android:text="@string/start" />
+
+    <Button
+        android:id="@+id/set"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/start_btn"
+        android:layout_centerHorizontal="true"
+        android:radius="50dp"
+        android:layout_marginBottom="7dp"
+        android:text="@string/apply" />
+
+
+</RelativeLayout>
