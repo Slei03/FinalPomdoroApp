@@ -17,6 +17,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
+//SettingsFragment creates the tab where users can adjust the length of time for tasks and breaks
+
 /**
  * A simple {@link Fragment} subclass.
  */

@@ -39,6 +39,7 @@ import static android.content.Context.INPUT_METHOD_SERVICE;
 import static android.content.Context.MODE_PRIVATE;
 import static android.net.sip.SipErrorCode.TIME_OUT;
 
+//HomeFragment makes up the home tab.
 
 /**
  * A simple {@link Fragment} subclass.

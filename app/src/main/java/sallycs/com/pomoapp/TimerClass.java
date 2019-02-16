@@ -25,6 +25,8 @@ import android.widget.TextView;
 import org.w3c.dom.Text;
 import java.util.Locale;
 
+//Creates the page of the timer for each task and break
+
 public class TimerClass extends AppCompatActivity {
 
     private Vibrator v;

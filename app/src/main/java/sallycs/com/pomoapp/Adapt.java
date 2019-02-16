@@ -12,6 +12,9 @@ import android.widget.TextView;
 
 import java.util.List;
 
+
+//Helps task list adapt to the list format in Home Tab of app
+
 public class Adapt extends RecyclerView.Adapter<Adapt.ViewHolder>{
 
     List<Task> list;

@@ -14,6 +14,8 @@ import android.support.v4.app.NotificationCompat;
 import sallycs.com.pomoapp.R;
 import sallycs.com.pomoapp.TimerClass;
 
+//Creates the alarm that will ring when time reaaches 0
+
 public class Alarm extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {

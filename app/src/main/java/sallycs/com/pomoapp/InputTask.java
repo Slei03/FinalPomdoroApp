@@ -10,13 +10,14 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+//Creates the page where users input their task
+
+
 public class InputTask extends AppCompatActivity {
     String name;
     String description;
     EditText n;
     EditText d;
-
-    DatabaseHelper mDatabaseHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +26,6 @@ public class InputTask extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        mDatabaseHelper = new DatabaseHelper(this);
 
         n = findViewById(R.id.name);
         d = findViewById(R.id.description);
@@ -86,15 +86,6 @@ public class InputTask extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void AddData(String newEntry) {
-        boolean insertData = mDatabaseHelper.addData(newEntry);
-
-        if (insertData) {
-            toastMessage("Data Successfully Inserted!");
-        } else {
-            toastMessage("Something went wrong");
-        }
-    }
 
     /**
      * customizable toast

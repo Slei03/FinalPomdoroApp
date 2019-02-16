@@ -38,6 +38,7 @@ import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.Locale;
 
+//Creates the Data Tab where the graph tracks the number of tasks completed daily
 
 /**
  * A simple {@link Fragment} subclass.

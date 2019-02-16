@@ -13,6 +13,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
 
+
+//Manages and initializes the fragments that build the app
+
 public class MainActivity extends AppCompatActivity implements TaskNum{
 
     public int taskCompleted;

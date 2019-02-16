@@ -8,7 +8,10 @@ import com.google.gson.TypeAdapter;
 import com.google.gson.TypeAdapterFactory;
 import com.google.gson.reflect.TypeToken;
 
+//Helps task list adapt to the list format in Home Tab of app
+
 public class ArrayAdapterFactory implements TypeAdapterFactory {
+
 
     @SuppressWarnings({ "unchecked", "rawtypes" })
     @Override

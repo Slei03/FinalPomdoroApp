@@ -3,6 +3,8 @@ package sallycs.com.pomoapp;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+//Creates the Task class that allows for creation of Task Object
+
 public class Task implements Parcelable {
     private String name;
     private String description;

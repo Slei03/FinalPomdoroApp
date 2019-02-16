@@ -11,7 +11,7 @@ import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonToken;
 import com.google.gson.stream.JsonWriter;
 
-
+//Helps task list adapt to the list format in Home Tab of app
 public class ArrayAdapter<T> extends TypeAdapter<List<T>> {
     private Class<T> adapterclass;
 
